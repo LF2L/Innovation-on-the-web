@@ -1,0 +1,24 @@
+<section class="innovation-network" id="network">
+  
+  <h2> Innovation Network </h2>
+  
+  <ul class="featurelist">
+    {% for feature in site.data.features %}
+        <li>
+          <a href="{{feature.link}}">
+            <img src="{{feature.image}}">
+
+            <div class="feature-title">
+              <h2>{{feature.title}}</h2>
+              <span class="feature-slider"></span>
+            </div>
+            
+            <div class="feature-info">
+              <p>{{feature.text}} <span class="feature-arrow"></span></p>
+            </div>
+          </a>
+        </li>
+    {% endfor %}
+  </ul>
+
+</section>

@@ -1,0 +1,88 @@
+.section-work	
+	//overflow-x: hidden
+	height: 50vh
+	background: $silver
+	text-align: center
+	margin: 0px
+	padding-bottom: 0px		
+
+
+	h2
+		padding-top: 100px		
+
+
+.thumb-wrap
+	width: 100%
+	float: left
+
+.thumb-container
+	max-width: 960px
+	margin: 50px auto
+	padding-bottom: 100px
+	//+clearfix
+	&::after
+		clear: both
+		content: ""
+		display: table
+
+	.thumb-unit
+		display: block	
+		width: 33%
+		// height: 150px
+		//background: white
+		float: left
+		position: relative
+		padding-top: 20%
+		//overflow: hidden 
+
+		//+perspective(300)
+
+		@media screen and (max-width: 760px)
+			width: 50%
+			padding-top: 25% 
+
+		background:
+			//image: url(/assets/img/articles/proj-1/thumb.jpg)
+			position: center center
+			repeat: no-repeat
+			size: cover
+
+		.thumb-overlay
+			position: absolute			
+			top: 0%		
+			right: 0px
+			bottom: 100%
+			left: 0px
+			background: fade-out($dark-grey, 0.3)
+			text-align: center
+			// +transition
+			//+transform(rotateX(90deg))
+			//+transform(matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1))
+			height: 100%
+			opacity: 0
+			//+transition(opacity, 300ms, ease-in, 300ms)
+
+
+			strong
+				display: block				
+				padding: 5px 20px
+				color: white
+				font-weight: 400
+				text-transform: uppercase
+				font-size: 24px
+
+
+
+		&:hover .thumb-overlay
+			z-index: 2
+			
+			// position: absolute
+			// top: 0%			
+			// right: 0px
+			// bottom: 0px
+			// left: 0px
+			// +transform(rotateX(0deg))
+			//@extend %animation-bounce
+			
+
+			opacity: 1	

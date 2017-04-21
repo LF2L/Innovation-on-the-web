@@ -1,0 +1,22 @@
+<header id="header">
+
+  
+
+    <div class="Logo-IOTW">
+      <a href="{{ site.baseurl }}/"> 
+        <img src= "{{ site.baseurl }}/assets/img/logos/IotW.png" alt="Innovation on the Web" style="height:70px;">  
+      </a>
+
+    </div>
+
+  
+
+    <div class="Panel-Nav">
+      <nav>
+        {% for item in site.data.settings.menu %}
+          <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    
+</header>

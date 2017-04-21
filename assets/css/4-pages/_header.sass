@@ -1,0 +1,59 @@
+header
+	background: white
+	height: 75px	
+
+
+	.Logo-IOTW
+		height: 70px
+		width: 330px            
+		float: left  
+		margin: 1px 0 0 10px
+
+	.Panel-Nav
+		height: 70px
+		//width: 800px
+		//background-color: $bgcolor
+		
+	
+		//clear: both
+
+		nav
+			
+			float: right
+			margin: 0px
+			position: relative
+			top: 30%
+			right: 80px
+
+			a 
+				display: inline-block				
+				margin-left: 20px
+				text-decoration: none
+				color: $bgcolor
+				// @extend %small-bold
+				font:
+					size: 15px
+					weight: 700
+					text-transform: uppercase
+
+				&:hover
+					color: rgba(0,0,0,1)	
+
+	
+
+@media (max-width: 640px)
+	header
+		background:
+			size: cover
+			position: right top
+		.Panel-Nav
+			nav
+				//float: none
+				text-align: center
+				//padding-top: 90px
+
+				float: left
+				margin: 0px
+				position: relative
+				top: 30%
+				left: 10px

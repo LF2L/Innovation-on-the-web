@@ -1,0 +1,130 @@
+.innovation-network
+	background-color: white	
+	height: 50vh
+	//margin: 0px
+	//padding: 0px
+	padding-bottom: 30px
+
+	h2
+		text-align: center
+		padding-top: 100px
+		padding-bottom: 80px
+		margin: 0px
+
+	.featurelist
+		padding: 0
+		margin: 0				
+		overflow: auto
+
+		li
+			height: 0
+			padding-bottom: 50%
+			min-height: 15em
+			overflow: hidden
+			background-color: $dark-grey
+			
+
+			@media (min-width: $bp-m)
+				width: grid-calc(1, 4)
+				float: left
+				padding-bottom: 30px
+
+				.feature-title
+					top: 22.5em
+				
+				.feature-info
+					padding-right: 5em
+				
+				a:hover
+					.feature-title
+						-webkit-transform: translateY(-10.5em)
+						transform: translateY(-10.5em)
+
+			@media (min-width: $bp-ml)
+				min-height: none
+				a:hover
+					.feature-title
+						-webkit-transform: translateY(-10.5em)
+						transform: translateY(-10.5em)
+
+		.feature-title
+			position: absolute
+			top: 7.5em
+			//margin-top: 30px
+			
+
+			background-color: rgba(#000, 0.6)
+			padding: 0.2em 0.5em 0.2em $gridGutter / 2
+			z-index: 2
+			will-change: background-color, transform
+			-webkit-transition: background-color 100ms ease, transform 300ms ease
+			transition: background-color 100ms ease, transform 300ms ease
+			color: white
+			white-space: nowrap
+			h2
+				display: inline-block
+				margin: 0				
+				//
+
+		.feature-info
+			position: absolute
+			top: 1em
+			width: 100%
+			height: 100%
+			color: white
+			line-height: 21px
+			font-size: 16px
+			background-color: $dark-grey
+			padding-top: 3.5em
+			-webkit-transform: translateY(200%)
+			transform: translateY(200%)
+			-webkit-transition: all 300ms ease
+			transition: all 300ms ease
+			will-change: transform
+			p
+				font-weight: 200
+				padding: 0 $gridGutter / 4 0 $gridGutter / 2
+	  
+		.feature-slider
+			display: inline-block
+			width: 1.5em
+			height: 1em
+			margin-left: 2em
+			background:
+				image: url(../img/Icons/slider-icon.svg)
+				size: 100%
+				position: 0 0
+				repeat: no-repeat
+			will-change: transform
+			-webkit-transition: transform 150ms linear
+			transition: transform 150ms linear
+
+		.feature-arrow
+			display: inline-block
+			width: 1.3em
+			height: 0.7em
+			margin-left: 0.5em
+			background:
+				image: url(../img/Icons/arrow-icon.svg)
+				size: 100%
+				position: 0 0
+				repeat: no-repeat
+		img
+			width: 100%
+			height: auto
+		
+		a
+			display: block
+			position: relative
+			&:hover,
+			&:active
+				.feature-title
+					-webkit-transform: translateY(-5.5em)
+					transform: translateY(-5.5em)
+					background-color: rgba($dark-grey, 0)
+				.feature-slider
+					-webkit-transform: rotateX(-270deg)
+					transform: rotateX(-270deg)
+				.feature-info
+					-webkit-transform: translateY(0)
+					transform: translateY(0)

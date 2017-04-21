@@ -1,0 +1,27 @@
+#-------------------------------
+# General Site Settings
+
+title: Green FabLab
+description: Innovation on the web
+email: fabio-alberto.cruz-sanchez@univ-lorraine.fr
+
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Why innovation, url: '#innovation'}
+- {name: Network, url: '#network'}
+- {name: Projects, url: '#projects'}
+- {name: Contact, url: '#contact'}
+
+
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: 48h pour faire vivre les idées, folder: 'proj-1', logo: 'Logo-48h.png', link: 'http://48h-innovation-maker.com/ensgsi'}
+- {name: Linky by Makers , folder: 'proj-2', logo: 'Logo-Linky.png', link: 'http://linkybymakers.fr/'}
+- {name: Green FabLab, folder: 'proj-3', logo: 'Green-Fablab.png', link: 'https://fabbiocrux.github.io/Green-FabLab/'}
+# - {name: Logistic Distributed Recycling, folder: 'proj-4', file: 'work/proj-4.html'}
+# - {name: Recycling in AM - Review, folder: 'proj-5', file: 'work/proj-5.html'}
