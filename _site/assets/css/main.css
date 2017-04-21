@@ -426,7 +426,8 @@ header {
       font-size: 25px;
       position: absolute;
       bottom: 50px;
-      left: 45%; }
+      left: 45%;
+      color: white; }
     .title .inner .arrow {
       display: inline-block;
       width: 17px;
@@ -501,7 +502,7 @@ header {
 
 .innovation-network {
   background-color: white;
-  height: 50vh;
+  height: 60vh;
   padding-bottom: 30px; }
   .innovation-network h2 {
     text-align: center;
@@ -515,7 +516,7 @@ header {
     .innovation-network .featurelist li {
       height: 0;
       padding-bottom: 50%;
-      min-height: 15em;
+      min-height: 16em;
       overflow: hidden;
       background-color: #303030; }
       @media (min-width: 800px) {
