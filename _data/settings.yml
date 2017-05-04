@@ -20,9 +20,10 @@ menu:
 # Work Section
 
 projects:
+
 - {name: Formez et recrutez des managers de l'innovation, folder: '', logo: '', link: '', description: "Une école unique"}
 - {name: Approfondissez vos connaissances sur l'innovation, folder: '', logo: '', link: '', description: "Un laboratoire spécialisé, articles scientifique, projets et thèses"}
-- {name: Entrez dans la 4ème dimension de l’Innovation , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Le LF2L® l’obtention de résultats immédiats grâce à un processus établi basé sur le paradigme de l’usage"}
+- {name: Entrez dans la 4ème dimension de l’Innovation , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Le LF2L® permet l’obtention de résultats immédiats grâce à un processus établi basé sur le paradigme de l’usage"}
 - {name: Évaluez et développez votre capacité à innover, folder: '', logo: '', link: 'http://innovation-way.com/' , description: "En seulement 30 minutes, évaluez la capacité à innover de votre organisation à l'aide un outil de diagnostic en ligne !"}
 
 - {name: 48h pour faire vivre les idées, folder: 'proj-1', logo: 'Logo-48h.png', link: 'http://48h-innovation-maker.com/ensgsi'}
