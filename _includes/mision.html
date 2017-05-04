@@ -1,20 +1,33 @@
 <section class="mision" id="innovation">
-  
-    <div class="about-text">
-      
 
-      <h2> Here, it is for explaining why Innovation is important ? </h2>
-
-      <p> or maybe to tell who this site is intended for ? </p>
-      
-    </div>
+	<div class="about-text">
 
 
-    <div class="about-hero">
-    
-    <h3> Here, a wonderful image </h3>
-      <!-- <img src= "assets/img/background/BG-1.jpg"> -->
-    </div>
-  
-  
+		<h2> Why Innovation is important ? </h2>
+
+		<p> or maybe to tell who this site is intended for ? </p>
+
+	</div>
+
+
+	<div class="about-hero">
+		
+		<!-- <h2>Innovation Network</h2> -->
+
+		<ul class="featurelist">			
+			{% for feature in site.data.features %}
+				<li>
+				<a href="{{feature.link}}">
+					<img src="{{feature.image}}">					
+				</a>
+				</li>
+			{% endfor %}
+		
+		</ul>
+
+		
+	<!-- <img src= "assets/img/background/BG-1.jpg"> -->
+	</div>
+
+
 </section>

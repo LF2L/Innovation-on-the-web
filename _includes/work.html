@@ -1,32 +1,38 @@
 <section class="section-work" id="projects">
 
-  <h2>Our projects </h2>
+	<h2>Our Expertise </h2>
 
 
-    <div class="thumb-wrap">
+	<div class="thumb-wrap">
 
-      <div class="thumb-container">   
-        
-        {% for project in site.data.settings.projects %}
+		<div class="thumb-container">   
 
-          <a href="{{project.link}}">
+			{% for project in site.data.settings.projects %}
+
+				<a href="{{project.link}}">
+					<div class="thumb-unit" style="background-image: url({{site.baseurl}}/assets/img/work/{{project.folder}}/{{project.logo}})">
+
+						<!-- <strong> {{ project.name }}</strong> -->
+
+						<div class="thumb-overlay">						
+						
+						<strong> {{ project.name }}</strong>
+
+							<div class="thumb-overlay2">
+								<p> {{ project.description }}</p>
+							</div>
+									
+					
+
+						</div>
+					</div> 
+				</a>
+			{% endfor %}
 
 
-          <div class="thumb-unit" style="background-image: url({{site.baseurl}}/assets/img/work/{{project.folder}}/{{project.logo}});">
-          <div class="thumb-overlay">
-            <strong> {{ project.name }}</strong>
+		</div>
+	</div>
 
-            <!-- <div class="zoom-icon"></div> -->
-            </a>
-
-          </div>
-        </div>
-        {% endfor %}
-
-
-      </div>
-    </div>
-
-  
-  
+	
+	
 </section>
