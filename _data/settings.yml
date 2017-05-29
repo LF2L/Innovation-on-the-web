@@ -11,21 +11,30 @@ email: fabio-alberto.cruz-sanchez@univ-lorraine.fr
 menu:
 - {name: Why innovation, url: '#innovation'}
 - {name: Network, url: '#network'}
-- {name: Projects, url: '#projects'}
+- {name: Savoir, url: '#projects'}
 - {name: Contact, url: '#contact'}
 
 
 
 #-------------------------------
-# Work Section
+# Savoir Faire
+#-------------------------------
 
-projects:
-
+savoir:
 - {name: Formez et recrutez des managers de l'innovation, folder: '', logo: '', link: '', description: "Une école unique"}
 - {name: Approfondissez vos connaissances sur l'innovation, folder: '', logo: '', link: '', description: "Un laboratoire spécialisé, articles scientifique, projets et thèses"}
-- {name: Entrez dans la 4ème dimension de l’Innovation , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Le LF2L® permet l’obtention de résultats immédiats grâce à un processus établi basé sur le paradigme de l’usage"}
+- {name: Découvrez le concept de <br> Fab Living Lab  , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Le LF2L® permet l’obtention de résultats immédiats grâce à un processus établi basé sur le paradigme de l’usage"}
 - {name: Évaluez et développez votre capacité à innover, folder: '', logo: '', link: 'http://innovation-way.com/' , description: "En seulement 30 minutes, évaluez la capacité à innover de votre organisation à l'aide un outil de diagnostic en ligne !"}
+- {name: Outillez votre démarche de créativité, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi'}
+- {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/'}
+- {name: Explorez le <br><em>Green FabLab </em>, folder: '', logo: '', link: 'https://fabbiocrux.github.io/Green-FabLab/'}
+- {name: Posez-nous vos questions!, folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr'}
 
+#-------------------------------
+# Projects
+#-------------------------------
+
+projects:
 - {name: 48h pour faire vivre les idées, folder: 'proj-1', logo: 'Logo-48h.png', link: 'http://48h-innovation-maker.com/ensgsi'}
 - {name: Atelier by makers , folder: 'proj-2', logo: 'Logo-Linky.png', link: 'http://linkybymakers.fr/'}
 - {name: Green FabLab, folder: 'proj-3', logo: 'Green-Fablab.png', link: 'https://fabbiocrux.github.io/Green-FabLab/'}

@@ -1,6 +1,35 @@
 <section class="section-work" id="projects">
 
-	<h2>Our Expertise </h2>
+	<h2>Nos savoirs faire</h2>
+
+
+	<div class="thumb-wrap">
+
+		<div class="thumb-container">   
+
+			{% for project in site.data.settings.savoir %}
+
+				<a href="{{project.link}}">
+					<div class="thumb-unit" style="background-image: url({{site.baseurl}}/assets/img/work/{{project.folder}}/{{project.logo}});">
+
+						<!-- <strong> {{ project.name }}</strong> -->
+
+						<div class="thumb-overlay">												
+						<strong> {{ project.name }}</strong>
+							<div class="thumb-overlay2">
+								<p> {{ project.description }}</p>
+							</div>														
+						</div>
+					</div> 
+				</a>
+			{% endfor %}
+
+
+		</div>
+	</div>
+
+
+<!-- <h2>Nos projets</h2>
 
 
 	<div class="thumb-wrap">
@@ -12,18 +41,13 @@
 				<a href="{{project.link}}">
 					<div class="thumb-unit" style="background-image: url({{site.baseurl}}/assets/img/work/{{project.folder}}/{{project.logo}});">
 
-						<!-- <strong> {{ project.name }}</strong> -->
-
-						<div class="thumb-overlay">						
-						
 						<strong> {{ project.name }}</strong>
 
+						<div class="thumb-overlay">												
+						<strong> {{ project.name }}</strong>
 							<div class="thumb-overlay2">
 								<p> {{ project.description }}</p>
-							</div>
-									
-					
-
+							</div>														
 						</div>
 					</div> 
 				</a>
@@ -31,8 +55,7 @@
 
 
 		</div>
-	</div>
-
+	</div> -->
 	
 	
 </section>

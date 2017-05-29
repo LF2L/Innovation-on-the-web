@@ -1,21 +1,21 @@
 - 1:
   title: "ENSGSI"
-  text: "Formés pour Innover!"
+  text: "École d'Ingénieur"
   image: "assets/img/innovation-network/ENSGSI.jpg"
   link: "http://www.ensgsi.univ-lorraine.fr/"
 - 2:
   title: "Laboratoire ERPI"
-  text: "Recherches dans le domaine de la conduite et du pilotage des processus innovatifs."
+  text: "Laboratoire de Recherche"
   image: "assets/img/innovation-network/ERPI.png"
   link: "https://laboratoire-erpi.wikispaces.com/"
 - 3:
   title: "Lorraine FabLivingLab"
-  text: "Entrez dans la 4ème dimension de l’Innovation !"
+  text: "Plataforme collaborative"
   image: "assets/img/innovation-network/LF2L.png"
   link: "http://www.lf2l.fr/"
 - 4:
   title: "Innovation Way"
-  text: "Réussir un projet innovant est une victoire, être capable de recommence est une nécessité."
+  text: "Start-up"
   image: "assets/img/innovation-network/Logo-IW-2.png"
   link: "http://innovation-way.com/"
 # - 5:
