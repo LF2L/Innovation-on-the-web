@@ -1,45 +1,51 @@
-<section class="mision" id="innovation">
 
-	<div class="about-text">
+<div class="container-fluid mision">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6">
+			<h5> Un portail inédit...</h5>
+
+			<div class="jumbotron">
+				<b>Objectif:</b>  Proposer un portail d’accès à des ressources fiables, robustes et à jour pour développer l’innovation en entreprise.
+			</div>
+
+			<div class="jumbotron">
+				<b>Vision:</b>  L’innovation est une science étudiée par les chercheurs depuis plus de 25 ans! <br>
+				Recherche académique, enseignements, observations et accompagnements terrain permettent  de comprendre  les processus d’innovation et d’améliorer leur pilotage.
+			</div>
+
+			<div class="jumbotron">
+				<b>Moyen:</b> A l’heure du crowdsourcing, de l’innovation agile et du travail collaboratif, ce portail permet de partager nos travaux en ingénierie de l’innovation.
+			</div>
 
 
-		<h2> Innovation on the web, Qu’est-ce donc ? </h2>
+			
 
-		<p>Ce site est né de la volonté d’un ensemble d’acteurs de l’innovation de proposer un portail d’accès à des ressources fiables, robustes et à jour pour développer l’innovation en entreprise. <br>
+		</div>
+  		
 
-		L’innovation est une science étudiée par les chercheurs depuis plus de 25 ans ! Les travaux de recherche académique, les enseignements réalisés dans certaines écoles d’ingénieurs et les observations et accompagnements menés sur le terrain permettent aux experts de mieux comprendre les processus d’innovation et d’améliorer leur pilotage. <br>
+  		<div class=" col-xs-12 col-sm-12 col-md-6">
+  		
+  			<h5>... issue d'une collaboration originale</h5>
+
+			<ul class="featurelist">
 
 
-		A l’heure du crowdsourcing, de l’innovation agile et du travail collaboratif, nous avons souhaité nous associer pour mettre à disposition de tous nos travaux en ingénierie de l’innovation.
+				{% for feature in site.data.features %}
+					<li>
+					<a href="{{feature.link}}">
+						<img src="{{feature.image}}">					
+					</a>
+					<p class="lead">{{feature.text}}</p>
+					
+					</li>
+				{% endfor %}
+			
+			</ul>	
 
-		Bienvenue sur Innovation-on-the-web, Bonne visite !
-
-		</p>
-
+  		</div>
 	</div>
+</div>
 
 
-	<div class="about-hero">
-		
-		<h2>Un ensemble d'acteurs au service du partage de la connaisance en Innovation</h2>
-
-		<ul class="featurelist">
 
 
-			{% for feature in site.data.features %}
-				<li>
-				<a href="{{feature.link}}">
-					<img src="{{feature.image}}">					
-				</a>
-				<h4>{{feature.text}}</h4>
-				</li>
-			{% endfor %}
-		
-		</ul>
-
-		
-	<!-- <img src= "assets/img/background/BG-1.jpg"> -->
-	</div>
-
-
-</section>

@@ -1,61 +1,75 @@
-<section class="section-work" id="projects">
+<section class="section-work">
+	<div class="container" >
 
-	<h2>Nos savoirs faire</h2>
+		<div class="row">
+	 		<div class="col-xs-12 col-sm-12 col-md-12 text-center"><h4>Nos savoirs faire</h4></div>  		
+		</div>
 
 
-	<div class="thumb-wrap">
-
-		<div class="thumb-container">   
-
+		<div class="row">
+		 
 			{% for project in site.data.settings.savoir %}
 
-				<a href="{{project.link}}">
-					<div class="thumb-unit" style="background-image: url({{site.baseurl}}/assets/img/work/{{project.folder}}/{{project.logo}});">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<!-- <a href="{{project.link}}"> -->
+						<div class="box">
 
-						<!-- <strong> {{ project.name }}</strong> -->
+							<p class="text-uppercase text-center lead"> {{ project.name }}</p>
 
-						<div class="thumb-overlay">												
-						<strong> {{ project.name }}</strong>
-							<div class="thumb-overlay2">
+							<!-- <strong> {{ project.name }}</strong> -->
+							<a href="{{project.link}}">
+							<div class="overlay">
 								<p> {{ project.description }}</p>
 							</div>														
-						</div>
-					</div> 
-				</a>
-			{% endfor %}
+							</a>
+						</div> 
+					<!-- </a> -->
+				</div>
 
-
+		    {% endfor %}
+		     
 		</div>
+
+
+	
+
+	<br>
+
+	<div class="row">
+	 		<div class="col-xs-12 col-sm-12 col-md-12 text-center"><h4>Rejoignez-nous</h4></div>  		
 	</div>
+	
 
-
-<!-- <h2>Nos projets</h2>
-
-
-	<div class="thumb-wrap">
-
-		<div class="thumb-container">   
-
+	<div class="row">
+		 
 			{% for project in site.data.settings.projects %}
 
-				<a href="{{project.link}}">
-					<div class="thumb-unit" style="background-image: url({{site.baseurl}}/assets/img/work/{{project.folder}}/{{project.logo}});">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<!-- <a href="{{project.link}}"> -->
+						<div class="box">
 
-						<strong> {{ project.name }}</strong>
+							<p class="text-uppercase text-center lead"> {{ project.name }}</p>
 
-						<div class="thumb-overlay">												
-						<strong> {{ project.name }}</strong>
-							<div class="thumb-overlay2">
+							<!-- <strong> {{ project.name }}</strong> -->
+							<a href="{{project.link}}">
+							<div class="overlay">
 								<p> {{ project.description }}</p>
 							</div>														
-						</div>
-					</div> 
-				</a>
-			{% endfor %}
+							</a>
+						</div> 
+					<!-- </a> -->
+				</div>
 
-
+		    {% endfor %}
+		     
 		</div>
-	</div> -->
-	
-	
+
+
+	<br>
+	<br>
+
+
+
+	</div>
 </section>
+

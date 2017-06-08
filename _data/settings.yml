@@ -21,22 +21,32 @@ menu:
 #-------------------------------
 
 savoir:
-- {name: Formez et recrutez des managers de l'innovation, folder: '', logo: '', link: '', description: "Une école unique"}
-- {name: Approfondissez vos connaissances sur l'innovation, folder: '', logo: '', link: '', description: "Un laboratoire spécialisé, articles scientifique, projets et thèses"}
-- {name: Découvrez le concept de <br> Fab Living Lab  , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Le LF2L® permet l’obtention de résultats immédiats grâce à un processus établi basé sur le paradigme de l’usage"}
-- {name: Évaluez et développez votre capacité à innover, folder: '', logo: '', link: 'http://innovation-way.com/' , description: "En seulement 30 minutes, évaluez la capacité à innover de votre organisation à l'aide un outil de diagnostic en ligne !"}
-- {name: Outillez votre démarche de créativité, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi'}
-- {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/'}
-- {name: Explorez le <br><em>Green FabLab </em>, folder: '', logo: '', link: 'https://fabbiocrux.github.io/Green-FabLab/'}
-- {name: Posez-nous vos questions!, folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr'}
+- {name: Formez et recrutez des managers de l'innovation, folder: '', logo: '', link: '', description: "Une grande école d'ingénieurs publique"}
+- {name: Approfondissez vos connaissances sur l'innovation, folder: '', logo: '', link: '', description: "Un laboratoire de recherche <br> Articles scientifiques, projets et thèses"}
+- {name: Découvrez le concept de <br> Fab Living Lab  , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Une plaforme collaborative pour accélerer vos projets"}
+- {name: Évaluez et développez votre capacité à innover, folder: '', logo: '', link: 'http://innovation-way.com/' , description: "Un outil de diagnostic en ligne en 30 minutes"}
+
+# - {name: Participez à un challenge de créativité, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international "}
+# - {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/'}
+# - {name: Explorez le <br><em>Green FabLab </em>, folder: '', logo: '', link: 'https://fabbiocrux.github.io/Green-FabLab/'}
+# - {name: Posez-nous vos questions!, folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr'}
 
 #-------------------------------
 # Projects
 #-------------------------------
 
 projects:
-- {name: 48h pour faire vivre les idées, folder: 'proj-1', logo: 'Logo-48h.png', link: 'http://48h-innovation-maker.com/ensgsi'}
-- {name: Atelier by makers , folder: 'proj-2', logo: 'Logo-Linky.png', link: 'http://linkybymakers.fr/'}
-- {name: Green FabLab, folder: 'proj-3', logo: 'Green-Fablab.png', link: 'https://fabbiocrux.github.io/Green-FabLab/'}
-- {name: "Something else?..", folder: "", logo: '', link: ''}
+
+- {name: Participez à un challenge de créativité, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international "}
+- {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/', description: "Les communauté de Makers à la conquete de Linky"}
+- {name: Explorez le Green FabLab, folder: '', logo: '', link: 'https://fabbiocrux.github.io/Green-FabLab/', description: "Les communauté de Makers à la conquete de Linky"}
+- {name: Contactez-nous!!, folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr'}
+
+
+# - {name: Participez à un challenge de créativité, folder, folder: 'proj-1', logo: 'Logo-48h.png', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international"}
+# - {name: Rejoignez un projet collaboratif, folder: 'proj-2', logo: 'Logo-Linky.png', link: 'http://linkybymakers.fr/', description: "Les communauté de Makers à la conquete de Linky"}
+# - {name: Explorez le Green FabLab, folder: 'proj-3', logo: 'Green-Fablab.png', link: 'https://fabbiocrux.github.io/Green-FabLab/'}
+# - {name: Contactez-nous !, folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr'}
+
+#- {name: Explorez le <br><em>Green FabLab </em>, folder: "", logo: '', link: ''}
 # - {name: Recycling in AM - Review, folder: 'proj-5', file: 'work/proj-5.html'}
