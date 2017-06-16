@@ -21,10 +21,10 @@ menu:
 #-------------------------------
 
 savoir:
-- {name: Formez et recrutez des managers de l'innovation, folder: '', logo: '', link: '', description: "Une grande école d'ingénieurs publique"}
-- {name: Approfondissez vos connaissances sur l'innovation, folder: '', logo: '', link: '', description: "Un laboratoire de recherche <br> Articles scientifiques, projets et thèses"}
-- {name: Découvrez le concept de <br>  Fab Living Lab  , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Une plateforme collaborative pour accélerer vos projets"}
-- {name: Évaluez et développez votre capacité à innover, folder: '', logo: '', link: 'http://innovation-way.com/' , description: "Un outil de diagnostic en ligne en 30 minutes"}
+- {name: Former et recruter des managers de l'innovation, folder: '', logo: '', link: '', description: "Une grande école d'ingénieurs publique"}
+- {name: Approfondisser les connaissances sur l'innovation, folder: '', logo: '', link: '', description: "Un laboratoire de recherche <br> Articles scientifiques, projets et thèses"}
+- {name: Découvrir le concept de <br>  Fab Living Lab  , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Une plateforme collaborative pour accélerer vos projets"}
+- {name: Évaluer et développer votre capacité à Innover, folder: '', logo: '', link: 'http://innovation-way.com/' , description: "Un outil de diagnostic en ligne en 30 minutes"}
 
 # - {name: Participez à un challenge de créativité, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international "}
 # - {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/'}
