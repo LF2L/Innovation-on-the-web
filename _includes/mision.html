@@ -4,22 +4,42 @@
 		<div class="col-xs-12 col-sm-12 col-md-6">
 			<h5> Un portail inédit...</h5>
 
-			<div class="jumbotron">
-				<b>Objectif:</b>  Proposer un portail d’accès à des ressources fiables, robustes et à jour pour développer l’innovation en entreprise.
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron">
+		  				<h6 class="display-3">Objectif</h6>
+		  				<hr class="my-4">
+						<p class="lead text-justify">
+						Proposer un portail d’accès à des ressources fiables, robustes et à jour pour développer l’innovation en entreprise.
+						</p>
+					</div>					
+				</div>
 			</div>
 
-			<div class="jumbotron">
-				<b>Vision:</b>  L’innovation est une science étudiée par les chercheurs depuis plus de 25 ans! <br>
-				Recherche académique, enseignements, observations et accompagnements terrain permettent  de comprendre  les processus d’innovation et d’améliorer leur pilotage.
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron" >
+		  				<h6 class="display-3">Vision</h6>
+		  				<hr class="my-4">
+						<p class="lead text-justify">
+						L’innovation est une science étudiée par les chercheurs depuis plus de 25 ans! <br>
+						Recherche académique, enseignements, observations et accompagnements terrain permettent  de comprendre  les processus d’innovation et d’améliorer leur pilotage.
+						</p>
+					</div>
+				</div>
 			</div>
 
-			<div class="jumbotron">
-				<b>Moyen:</b> A l’heure du crowdsourcing, de l’innovation agile et du travail collaboratif, ce portail permet de partager nos travaux en ingénierie de l’innovation.
-			</div>
-
-
-			
-
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron">
+		  				<h6 class="display-3">Moyen:</h6>
+		  				<hr class="my-4">
+						<p class="lead text-justify">
+						A l’heure du crowdsourcing, de l’innovation agile et du travail collaboratif, ce portail permet de partager nos travaux en ingénierie de l’innovation.
+						</p>				  
+					</div>
+				</div>
+			</div>			
 		</div>
   		
 
@@ -27,8 +47,33 @@
   		
   			<h5>... issue d'une collaboration originale</h5>
 
-			<ul class="featurelist">
+			
+			<div class="row" style="padding-top: 5%;">
 
+			
+		 
+			{% for feature in site.data.features %}
+				
+
+				<div class="col-xs-5 col-sm-5 col-md-5">
+					
+					<a href="{{feature.link}}">
+						<img src="{{feature.image}}" class="img-responsive" style="max-height: 150px">					
+					</a>
+					<p class="lead text-center">{{feature.text}}</p>
+						
+				</div>
+
+
+
+
+		    {% endfor %}
+		     
+		    
+		</div>
+
+
+			<!-- <ul class="featurelist">
 
 				{% for feature in site.data.features %}
 					<li>
@@ -41,7 +86,7 @@
 				{% endfor %}
 			
 			</ul>	
-
+ -->
   		</div>
 	</div>
 </div>
