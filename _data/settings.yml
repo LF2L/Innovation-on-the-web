@@ -39,7 +39,7 @@ projects:
 
 - {name: Participez à un challenge de créativité, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international "}
 - {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/', description: "Les communauté de Makers à la conquete de Linky"}
-- {name: Explorez le Green FabLab, folder: '', logo: '', link: 'https://fabbiocrux.github.io/Green-FabLab/', description: "Creating a new circular economy for the future"}
+- {name: Explorez le Green FabLab, folder: '', logo: '', link: 'https://fabbiocrux.github.io/Green-FabLab/', description: "Vers la création d'une nouvelle economie circulaire pour le future"}
 - {name: Contactez-nous!, folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr'}
 
 
