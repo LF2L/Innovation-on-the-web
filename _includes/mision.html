@@ -10,7 +10,7 @@
 		  				<h6 class="display-3">Objectif</h6>
 		  				<hr class="my-4">
 						<p class="lead text-justify">
-						Proposer un portail d’accès à des ressources fiables, robustes et à jour pour développer l’innovation en entreprise.
+						Vous proposer un portail d’accès à des ressources éprouvées pour développer l’innovation dans  les entreprises, les institutions et les territoires.
 						</p>
 					</div>					
 				</div>
@@ -22,7 +22,7 @@
 		  				<h6 class="display-3">Vision</h6>
 		  				<hr class="my-4">
 						<p class="lead text-justify">
-						L’innovation est une science étudiée par les chercheurs depuis plus de 25 ans! <br>
+						L’innovation est une science étudiée depuis plus de 25 ans ! <br>
 						Recherche académique, enseignements, observations et accompagnements terrain permettent  de comprendre  les processus d’innovation et d’améliorer leur pilotage.
 						</p>
 					</div>
@@ -32,7 +32,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="jumbotron">
-		  				<h6 class="display-3">Moyen:</h6>
+		  				<h6 class="display-3">Moyen</h6>
 		  				<hr class="my-4">
 						<p class="lead text-justify">
 						A l’heure du crowdsourcing, de l’innovation agile et du travail collaboratif, ce portail permet de partager nos travaux en ingénierie de l’innovation.
@@ -54,13 +54,16 @@
 		 
 			{% for feature in site.data.features %}
 				
+				
 
 				<div class="col-xs-5 col-sm-5 col-md-5">
 					
+					<p class="lead text-center" style="margin-bottom: 0px; margin-top: 30px"> <b>{{feature.text}}</b></p>
+
 					<a href="{{feature.link}}">
-						<img src="{{feature.image}}" class="img-responsive" style="max-height: 150px">					
+						<img src="{{feature.image}}" class="img-responsive" style="max-height: 120px; margin: 0 auto;">					
 					</a>
-					<p class="lead text-center">{{feature.text}}</p>
+					
 						
 				</div>
 

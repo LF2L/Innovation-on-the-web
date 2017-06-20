@@ -21,10 +21,10 @@ menu:
 #-------------------------------
 
 savoir:
-- {name: Formez et recrutez des managers de l'innovation, folder: '', logo: '', link: '', description: "Une grande école d'ingénieurs publique"}
-- {name: Approfondissez vos connaissances sur l'innovation, folder: '', logo: '', link: '', description: "Un laboratoire de recherche <br> Articles scientifiques, projets et thèses"}
-- {name: Découvrez le concept de <br>  Fab Living Lab  , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Une plateforme collaborative pour accélerer vos projets"}
-- {name: Évaluez et développez votre capacité à innover, folder: '', logo: '', link: 'http://innovation-way.com/' , description: "Un outil de diagnostic en ligne en 30 minutes"}
+- {name: Former des managers de l'innovation, folder: '', logo: '', link: 'http://www.ensgsi.univ-lorraine.fr/', description: "Une grande école d'ingénieurs publique"}
+- {name: Approfondir les connaissances sur l'innovation, folder: '', logo: '', link: 'https://laboratoire-erpi.wikispaces.com/', description: "Un laboratoire de recherche sur les processus d'innovation, des chaires partenariales"}
+- {name: Diffuser le <br> concept de   Fab Living Lab  , folder: '', logo: '', link: 'http://www.lf2l.fr/', description: "Une plateforme collaborative pour accélerer vos projets"}
+- {name: Évaluer et développer votre capacité à innover, folder: '', logo: '', link: 'http://innovation-way.com/' , description: "Un outil de diagnostic en ligne en 30 minutes"}
 
 # - {name: Participez à un challenge de créativité, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international "}
 # - {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/'}
@@ -37,13 +37,13 @@ savoir:
 
 projects:
 
-- {name: Participez à un challenge de créativité, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international "}
-- {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/', description: "Les communauté de Makers à la conquete de Linky"}
-- {name: Explorez le Green FabLab, folder: '', logo: '', link: 'https://fabbiocrux.github.io/Green-FabLab/', description: "Vers la création d'une nouvelle economie circulaire pour le future"}
-- {name: Contactez-nous!, folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr'}
+- {name: Participez à un challenge créatif, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "Une opération de créativité et d'innovation d'envergure internationale"}
+- {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/', description: "Découvrez nos ateliers by Makers&copy;"}
+- {name: Explorez le Green FabLab, folder: '', logo: '', link: 'https://fabbiocrux.github.io/Green-FabLab/', description: "Conjuguez FabLab et économie circulaire"}
+- {name: "D'autres projets ou informations &#63;, Contactez-nous!", folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr' , description: }
 
 
-# - {name: Participez à un challenge de créativité, folder, folder: 'proj-1', logo: 'Logo-48h.png', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international"}
+# - {name: Participez à un challenge de créativité, folder, folder: 'proj-1', logo: 'Logo-48h.png', link: 'http://48h-innovation-maker.com/ensgsi', description: "La plus grande opération d'Innovation à l'international"} Contribuez à la création d'une nouvelle economie circulaire pour le future
 # - {name: Rejoignez un projet collaboratif, folder: 'proj-2', logo: 'Logo-Linky.png', link: 'http://linkybymakers.fr/', description: "Les communauté de Makers à la conquete de Linky"}
 # - {name: Explorez le Green FabLab, folder: 'proj-3', logo: 'Green-Fablab.png', link: 'https://fabbiocrux.github.io/Green-FabLab/'}
 # - {name: Contactez-nous !, folder: "", logo: '', link: 'mailto:contact@erpi.univ-lorraine.fr'}
