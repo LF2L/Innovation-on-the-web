@@ -39,9 +39,9 @@ savoir:
 
 projects:
 
-- {name: Participez à un challenge créatif, folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "Une opération de créativité et d'innovation d'envergure internationale"}
-- {name: Rejoignez un projet collaboratif , folder: '', logo: '', link: 'http://linkybymakers.fr/', description: "Découvrez nos ateliers by Makers&copy;"}
-- {name: Explorez le Green FabLab, folder: '', logo: '', link: 'http://www.lf2l.fr/Sections/Projets/Green-Fablab/', description: "Conjuguez FabLab et économie circulaire"}
+- {name: "Participez à un challenge créatif", folder: '', logo: '', link: 'http://48h-innovation-maker.com/ensgsi', description: "Une opération de créativité et d'innovation d'envergure internationale"}
+- {name: "Rejoignez un projet collaboratif" , folder: '', logo: '', link: 'http://linkybymakers.fr/', description: "Découvrez nos ateliers by Makers&copy;"}
+- {name: "Explorez le Green FabLab", folder: '', logo: '', link: 'http://www.lf2l.fr/Sections/Projets/Green-Fablab/', description: "Conjuguez FabLab et économie circulaire"}
 - {name: "D'autres projets ou informations &#63;, Contactez-nous!", folder: "", logo: '', link: '' , description: }
 
 
