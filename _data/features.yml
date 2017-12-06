@@ -1,31 +1,21 @@
-- 1:
-  title: "ENSGSI"
+---
+- '1': 
+  title: ENSGSI
   text: "École d'Ingénieurs"
-  image: "assets/img/innovation-network/ENSGSI-2.jpg"
-  link: "http://www.ensgsi.univ-lorraine.fr/"
-- 2:
-  title: "Laboratoire ERPI"
-  text: "Laboratoire de Recherche"
-  image: "assets/img/innovation-network/ERPI.png"
-  link: "https://laboratoire-erpi.wikispaces.com/"
-- 3:
-  title: "Lorraine FabLivingLab"
-  text: "Plateforme collaborative"
-  image: "assets/img/innovation-network/LF2L-2.jpg"
-  link: "http://www.lf2l.fr/"
-- 4:
-  title: "Innovation Way"
-  text: "Start-up"
-  image: "assets/img/innovation-network/Logo-IW-2.png"
-  link: "http://innovation-way.com/"
-# - 5:
-#   title: "Linky by Makers"
-#   text: "Inventons ensemble le réseau électrique de demain"
-#   image: "/images/Logo-48h.png"
-#   link: "http://linkybymakers.fr/"
-# - 6:
-#   title: "48H pour faire vivre des idées"
-#   text: "Prompt is an initiative to start a conversation about mental health in the tech community, and today we are excited to announce that it joins the Travis Foundation."
-#   image: "/images/Logo-Linky.jpg"
-#   link: "http://48h-innovation-maker.com/ensgsi"
-
+  image: assets/img/innovation-network/ENSGSI-2.jpg
+  link: http://www.ensgsi.univ-lorraine.fr/
+- '2': 
+  title: Laboratoire ERPI
+  text: Laboratoire de Recherche
+  image: assets/img/innovation-network/ERPI.png
+  link: https://laboratoire-erpi.wikispaces.com/
+- '3': 
+  title: Lorraine FabLivingLab
+  text: Plateforme collaborative
+  image: assets/img/innovation-network/LF2L-2.jpg
+  link: http://www.lf2l.fr/
+- '4': 
+  title: Innovation Way
+  text: Spin-off
+  image: assets/img/innovation-network/Logo-IW-2.png
+  link: http://innovation-way.com/
